@@ -58,7 +58,7 @@ FROM Planos
 WHERE valor_mensal > 100;
 
 UPDATE Planos 
-SET valor_mensal = 149.90 
+SET valor_mensal = 159.90 
 WHERE nome_plano = 'Premium';
 
 DELETE FROM Planos
