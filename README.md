@@ -41,9 +41,9 @@ Comandos usados para inserir, consultar, alterar e remover dados.
 ```sql
 -- INSERT
 INSERT INTO Planos (nome_plano, valor_mensal) VALUES
-('Premium', 149.90),
+('Premium', 129.90),
 ('Básico', 79.90),
-('Intermediário', 109.90);
+('Intermediário', 99.90);
 
 -- SELECT
 SELECT * FROM Planos;
