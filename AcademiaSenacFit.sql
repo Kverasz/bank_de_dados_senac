@@ -51,3 +51,16 @@ INSERT INTO Treinos (aluno_id, instrutor_id, descricao, data_treino) VALUES
 (1, 1, 'Treino de musculação - peito e tríceps', '2025-02-10'),
 (2, 2, 'Treino de cardio - aeróbico intenso', '2025-02-11'),
 (3, 3, 'Treino funcional - crossfit iniciante', '2025-02-12');
+
+SELECT * FROM Planos;
+SELECT nome_plano, valor_mensal 
+FROM Planos 
+WHERE valor_mensal > 100;
+
+UPDATE Planos 
+SET valor_mensal = 149.90 
+WHERE nome_plano = 'Premium';
+
+DELETE FROM Planos
+WHERE nome_plano = 'Básico';
+
